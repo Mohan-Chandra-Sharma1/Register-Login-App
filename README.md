@@ -5,7 +5,8 @@
 
 ![Screenshot 2023-10-06 131522](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/c6269706-e227-4d7f-b3e1-40a24c14fd47)
 
-![Screenshot 2023-10-06 132309](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/b2fb1990-2430-46de-8392-710bb857c638)
+
+![Screenshot 2023-10-06 132244](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/e8fcc966-b74f-4f53-963b-0a5eec80764c)
 
 
 
@@ -25,7 +26,7 @@
 
 
 
-![Screenshot 2023-10-06 132244](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/e8fcc966-b74f-4f53-963b-0a5eec80764c)
+![Screenshot 2023-10-06 132309](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/b2fb1990-2430-46de-8392-710bb857c638)
 
 
 
