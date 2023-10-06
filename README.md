@@ -44,6 +44,151 @@
 
 
 
+# My React Authentication App
+
+## Table of Contents
+
+- [Description](#description)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Components](#components)
+  - [App.js](#appjs)
+  - [SignUp.js](#signupjs)
+  - [Login.js](#loginjs)
+  - [Homepage.js](#homepagejs)
+- [Styling](#styling)
+- [API Integration](#api-integration)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+
+# Login Component Documentation
+
+The `Login.js` component in this React application handles user login functionality and API integration. This documentation explains the code within this component.
+
+## Table of Contents
+
+- [Description](#description)
+- [Component Overview](#component-overview)
+- [API Integration](#api-integration)
+- [Form Handling](#form-handling)
+- [Error Handling](#error-handling)
+- [Styling](#styling)
+- [Usage](#usage)
+
+## Description
+
+# SignUp Component Documentation
+
+The `SignUp.js` component in this React application handles user registration and sign-up functionality, including API integration and error handling. This documentation explains the code within this component.
+
+## Table of Contents
+
+- [Description](#description)
+- [Component Overview](#component-overview)
+- [API Integration](#api-integration)
+- [Form Handling](#form-handling)
+- [Error Handling](#error-handling)
+- [Styling](#styling)
+- [Usage](#usage)
+
+## Description
+
+The `SignUp.js` component is responsible for allowing users to sign up for the application. It interacts with two API endpoints for user registration and displays error messages using the `react-toastify` library in case of any issues.
+
+## Component Overview
+
+The `SignUp.js` component consists of the following key parts:
+
+- **Import Statements**: It imports necessary modules, including React components, CSS styles, and libraries for styling and API integration.
+
+- **State Management**: It uses the `useState` hook to manage the state of user registration data, including fields such as `firstName`, `lastName`, `username`, `email`, and `password`.
+
+- **handleSubmit Function**: This function is triggered when the sign-up form is submitted. It performs the following steps:
+  1. Sends user registration data to `API 1` for creating a new user account.
+  2. If the account is successfully created (status code 200), it sends the same data to `API 2` with additional user attributes.
+  3. If both API calls are successful, it displays a success alert and redirects the user to the homepage.
+  4. If any API call fails, it handles errors and displays an error message using `react-toastify`.
+
+- **handleChange Function**: This function handles changes in input fields and updates the state accordingly.
+
+- **Render Method**: It renders the sign-up form with input fields for `firstName`, `lastName`, `username`, `email`, and `password`. Each input field has required validation. The form submission triggers the `handleSubmit` function.
+
+- **Toast Container**: It uses `react-toastify` to display error messages to the user in a user-friendly way.
+
+## API Integration
+
+The `SignUp.js` component integrates with two API endpoints for user registration and account creation. Both API calls are made using the `fetch` API. The first API (`API 1`) is used to create a user account, while the second API (`API 2`) is used to add additional attributes to the user.
+
+## Form Handling
+
+The component handles form input and submission. It captures changes in the input fields (e.g., `firstName`, `lastName`) and updates the state accordingly. The form submission triggers the `handleSubmit` function.
+
+## Error Handling
+
+Error handling is implemented to manage possible failures in API calls. If an API call fails, an error message is displayed using `react-toastify` to inform the user of the issue.
+
+
+
+
+
+##Login.js - 
+The `Login.js` component is responsible for allowing users to log in to the application. It interacts with two API endpoints for user authentication. In case of successful login, the user is redirected to the homepage. Error messages are displayed using the `react-toastify` library.
+
+## Component Overview
+
+The `Login.js` component consists of the following key parts:
+
+- **Import Statements**: It imports necessary modules and CSS files for styling and API integration.
+
+- **State Management**: It uses the `useState` hook to manage the state of login data, including the `username` and `password`.
+
+- **handleLogin Function**: This function is triggered when the login form is submitted. It performs the following steps:
+  1. Sends login data to `API 1` for authentication.
+  2. If authentication is successful (status code 200), it retrieves a JWT token from the response.
+  3. Sends login data, along with the retrieved token, to `API 2` for further authentication.
+  4. If both API calls are successful, it displays an alert for successful login and redirects the user to the homepage.
+  5. If any API call fails, it handles errors and displays an error message.
+
+- **handleChange Function**: This function handles input field changes and updates the state accordingly.
+
+- **Render Method**: It renders the login form with input fields for `username` and `password`. Styling classes are added for a 3D effect. The form submission triggers the `handleLogin` function.
+
+- **Toast Container**: It uses `react-toastify` to display error messages to the user.
+
+## API Integration
+
+The `Login.js` component integrates with two API endpoints:
+1. `API 1` for initial user authentication.
+2. `API 2` for further user authentication with the retrieved JWT token.
+
+Both API calls are made using the `fetch` API.
+
+## Form Handling
+
+The component handles form input and submission. It captures changes in the `username` and `password` fields and triggers the `handleLogin` function on form submission.
+
+## Error Handling
+
+Error handling is implemented to manage possible failures in API calls. Error messages are displayed using the `react-toastify` library, providing a user-friendly experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
