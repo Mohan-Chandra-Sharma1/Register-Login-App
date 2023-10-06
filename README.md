@@ -33,6 +33,18 @@
 
 ![Screenshot 2023-10-06 132404](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/ada22854-f272-4a16-be52-2800ebbb87f5)
 
+![Screenshot 2023-10-06 132933](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/d2cc5162-6669-4e09-be75-c062e88fa08d)
+
+
+
+
+
+![Screenshot 2023-10-06 132810](https://github.com/Mohan-Chandra-Sharma1/Register-Login-App/assets/120721761/a1921e56-33eb-4e84-aeef-2d3596795958)
+
+
+
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
