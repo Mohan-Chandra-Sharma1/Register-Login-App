@@ -64,21 +64,6 @@
 - [License](#license)
 
 
-
-# Login Component Documentation
-
-The `Login.js` component in this React application handles user login functionality and API integration. This documentation explains the code within this component.
-
-## Table of Contents
-
-- [Description](#description)
-- [Component Overview](#component-overview)
-- [API Integration](#api-integration)
-- [Form Handling](#form-handling)
-- [Error Handling](#error-handling)
-- [Styling](#styling)
-- [Usage](#usage)
-
 ## Description
 
 # SignUp Component Documentation
@@ -132,7 +117,19 @@ The component handles form input and submission. It captures changes in the inpu
 Error handling is implemented to manage possible failures in API calls. If an API call fails, an error message is displayed using `react-toastify` to inform the user of the issue.
 
 
+# Login Component Documentation
 
+The `Login.js` component in this React application handles user login functionality and API integration. This documentation explains the code within this component.
+
+## Table of Contents
+
+- [Description](#description)
+- [Component Overview](#component-overview)
+- [API Integration](#api-integration)
+- [Form Handling](#form-handling)
+- [Error Handling](#error-handling)
+- [Styling](#styling)
+- [Usage](#usage)
 
 
 ##Login.js - 
